@@ -1,6 +1,17 @@
 import React from "react";
 import { Card, Button, Image, Container } from "react-bootstrap";
 
+import android from "../assets/android.png";
+import blender from "../assets/blender.png";
+import csharp from "../assets/csharp.png";
+import django from "../assets/django.png";
+import java from "../assets/java.png";
+import js from "../assets/js.png";
+import php from "../assets/php.png";
+import python from "../assets/python.png";
+import reactjs from "../assets/reactjs.png";
+import unitybnw from "../assets/unitybnw.png";
+
 function Projects() {
   return (
     <Container>
@@ -31,7 +42,7 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer className="text-muted">2 days ago</Card.Footer>
+            <Card.Footer><Image src={reactjs}/><Image src={js}/><Image src={django}/><Image src={python}/></Card.Footer>
           </Card>
         </div>
         <div>
@@ -59,7 +70,7 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer className="text-muted">2 days ago</Card.Footer>
+            <Card.Footer><Image src={android}/><Image src={java}/><Image src={js}/></Card.Footer>
           </Card>
         </div>
         <div>
@@ -89,7 +100,7 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer className="text-muted">2 days ago</Card.Footer>
+            <Card.Footer><Image src={php}/></Card.Footer>
           </Card>
         </div>
         <div>
@@ -120,7 +131,7 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer className="text-muted">2 days ago</Card.Footer>
+            <Card.Footer ><Image src={android}/><Image src={java}/></Card.Footer>
           </Card>
         </div>
       </div>
