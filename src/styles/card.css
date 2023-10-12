@@ -1,0 +1,73 @@
+.projects {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.projects-info {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/*Image*/
+.projects-avatar {
+  --size: 60px;
+  background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+/*Card footer*/
+.projects-social {
+  transform: translateY(200%);
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.projects-social__item {
+  list-style: none;
+}
+
+.projects-social__item Button {
+  fill: #0004ff;
+  cursor: pointer;
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+/*Text*/
+.projects-title {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.projects-subtitle {
+  color: #ffffff;
+}
+
+/*Hover*/
+.projects:hover {
+  box-shadow: 0 8px 50px #00ff2a33;
+}
+
+.projects:hover .card-info {
+  transform: translateY(-5%);
+}
+
+.projects:hover .card-social {
+  transform: translateY(100%);
+  opacity: 1;
+}
+
+.projects-social__item svg:hover {
+  fill: #232323;
+  transform: scale(1.1);
+}
+
+.projects-avatar:hover {
+  transform: scale(1.1);
+}
