@@ -26,6 +26,7 @@ function Projects() {
               <Button
                 variant="outline-dark"
                 href="https://github.com/anotskie/enhancement_request_V2"
+                target="_blank"
               >
                 Check it out!
               </Button>
@@ -53,6 +54,7 @@ function Projects() {
               <Button
                 variant="outline-dark"
                 href="https://github.com/anotskie/fera-app"
+                target="_blank"
               >
                 Check it out!
               </Button>
@@ -82,6 +84,7 @@ function Projects() {
               <Button
                 variant="outline-dark"
                 href="https://github.com/K4elthaz/COOP-SYSTEM"
+                target="_blank"
               >
                 Check it out!
               </Button>
@@ -109,7 +112,13 @@ function Projects() {
                 at the kindergarten level, offering engaging and interactive
                 learning experiences.
               </Card.Text>
-              <Button variant="outline-dark" href="https://github.com/GCKZ/learning">Check it out!</Button>
+              <Button
+                variant="outline-dark"
+                href="https://github.com/GCKZ/learning"
+                target="_blank"
+              >
+                Check it out!
+              </Button>
             </Card.Body>
             <Card.Footer className="text-muted">2 days ago</Card.Footer>
           </Card>

@@ -17,7 +17,6 @@ import "../styles/form.css";
 
 import Projects from "../component/Projects";
 
-
 import github from "../assets/github.png";
 import facebook from "../assets/facebook.png";
 import linkedin from "../assets/linkedin.png";
@@ -44,10 +43,7 @@ function LandingPage() {
     <div>
       <Header />
       <Container fluid>
-        <Card
-          className="text-white mx-auto mt-5"
-          // Set the card width to 100% for mobile screens
-        >
+        <Card className="text-white mx-auto mt-5">
           <Card.Body>
             <Card.Title>
               <h1>Hi, I'm Arnold Celis</h1>
@@ -59,11 +55,29 @@ function LandingPage() {
                   a passion for turning ideas into interactive experiences.
                 </p>
               </span>
-              <div class="d-flex justify-content-around">
+              <div className="d-flex justify-content-around">
                 {" "}
-                <Image src={github} style={{ cursor: "pointer" }} />
-                <Image src={facebook} style={{ cursor: "pointer" }} />
-                <Image src={linkedin} style={{ cursor: "pointer" }} />
+                <a
+                  href="https://github.com/anotskie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={github} style={{ cursor: "pointer" }} />
+                </a>
+                <a
+                  href="https://www.facebook.com/Hanuman.Me.3.15.01"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={facebook} style={{ cursor: "pointer" }} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/arnold-celis-095492278/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src={linkedin} style={{ cursor: "pointer" }} />
+                </a>
               </div>
             </Card.Text>
           </Card.Body>
@@ -97,7 +111,7 @@ function LandingPage() {
             </div>
           </Col>
         </Row>
-        <hr class="hr hr-blurry mt-4" />{" "}
+        <hr className="hr hr-blurry mt-4" />{" "}
         {/* ------------------------------------------------------------------------------------------ */}
         <h1 className="d-flex justify-content-center align-items-center">
           Skills
@@ -120,7 +134,7 @@ function LandingPage() {
             <img src={unitybnw} />
           </Col>
         </Row>
-        <hr class="hr hr-blurry mt-5" />{" "}
+        <hr className="hr hr-blurry mt-5" />{" "}
         {/* ------------------------------------------------------------------------------------------ */}
         <h1 className="d-flex justify-content-center align-items-center mb-5">
           Projects
@@ -131,16 +145,15 @@ function LandingPage() {
           </Col>
         </Row>
         {/* ------------------------------------------------------------------------------------------ */}
-        <hr class="hr hr-blurry mt-5" />{" "}
+        <hr className="hr hr-blurry mt-5" />{" "}
         <h1 className="d-flex justify-content-center align-items-center">
           Sample Models
         </h1>
         <div className="d-flex justify-content-center align-items-center">
           {" "}
-          
         </div>
         {/* ------------------------------------------------------------------------------------------ */}
-        <hr class="hr hr-blurry mt-5" />{" "}
+        <hr className="hr hr-blurry mt-5" />{" "}
         <h1 className="d-flex justify-content-center align-items-center">
           Contact
         </h1>
