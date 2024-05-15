@@ -20,7 +20,9 @@ function Projects() {
         <div>
           {" "}
           <Card className="projects">
-            <Card.Header className="projects-info">Featured</Card.Header>
+            <Card.Header className="projects-info" style={{ color: "white" }}>
+              Featured
+            </Card.Header>
             <Card.Body style={{ backgroundColor: "black" }}>
               <Card.Title className="projects-title">
                 Enhancement Request Project
@@ -42,13 +44,20 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer><Image src={reactjs}/><Image src={js}/><Image src={django}/><Image src={python}/></Card.Footer>
+            <Card.Footer>
+              <Image src={reactjs} />
+              <Image src={js} />
+              <Image src={django} />
+              <Image src={python} />
+            </Card.Footer>
           </Card>
         </div>
         <div>
           {" "}
           <Card className="projects">
-            <Card.Header className="projects-info">Featured</Card.Header>
+            <Card.Header className="projects-info" style={{ color: "white" }}>
+              Featured
+            </Card.Header>
             <Card.Body style={{ backgroundColor: "black" }}>
               <Card.Title className="projects-title">
                 Fire Emergency Responder Application (FERA)
@@ -70,13 +79,19 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer><Image src={android}/><Image src={java}/><Image src={js}/></Card.Footer>
+            <Card.Footer>
+              <Image src={android} />
+              <Image src={java} />
+              <Image src={js} />
+            </Card.Footer>
           </Card>
         </div>
         <div>
           {" "}
           <Card className="projects">
-            <Card.Header className="projects-info">Featured</Card.Header>
+            <Card.Header className="projects-info" style={{ color: "white" }}>
+              Featured
+            </Card.Header>
             <Card.Body style={{ backgroundColor: "black" }}>
               <Card.Title className="projects-title">
                 ERDB CO-OP System
@@ -100,13 +115,17 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer><Image src={php}/></Card.Footer>
+            <Card.Footer>
+              <Image src={php} />
+            </Card.Footer>
           </Card>
         </div>
         <div>
           {" "}
           <Card className="projects">
-            <Card.Header className="projects-info">Featured</Card.Header>
+            <Card.Header className="projects-info" style={{ color: "white" }}>
+              Featured
+            </Card.Header>
             <Card.Body style={{ backgroundColor: "black" }}>
               <Card.Title className="projects-title">
                 E-Learning Application
@@ -131,7 +150,10 @@ function Projects() {
                 Check it out!
               </Button>
             </Card.Body>
-            <Card.Footer ><Image src={android}/><Image src={java}/></Card.Footer>
+            <Card.Footer>
+              <Image src={android} />
+              <Image src={java} />
+            </Card.Footer>
           </Card>
         </div>
       </div>

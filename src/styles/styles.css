@@ -1,13 +1,12 @@
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 html,
 body {
   margin: 0;
+  padding: 0;
 }
 
 .App {
-
   height: 100vh;
 }
 
@@ -23,7 +22,6 @@ body {
 .text-white {
   color: white !important;
 }
-
 
 h1 {
   font-family: "Montserrat Medium";

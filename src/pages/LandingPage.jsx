@@ -16,6 +16,7 @@ import "../styles/card.css";
 import "../styles/form.css";
 
 import Projects from "../component/Projects";
+import Footer from "../component/Footer";
 
 import github from "../assets/github.png";
 import facebook from "../assets/facebook.png";
@@ -114,7 +115,7 @@ function LandingPage() {
         <hr className="hr hr-blurry mt-4" />{" "}
         {/* ------------------------------------------------------------------------------------------ */}
         <h1 className="d-flex justify-content-center align-items-center">
-          Skills
+          SKILLS
         </h1>
         <Row>
           <Col className="d-flex justify-content-center align-items-center">
@@ -123,6 +124,10 @@ function LandingPage() {
             <img src={csharp} />
             <img src={django} />
             <img src={java} />
+            <img
+              src="https://img.icons8.com/color/48/kotlin.png"
+              alt="kotlin"
+            />
           </Col>
         </Row>
         <Row>
@@ -132,12 +137,16 @@ function LandingPage() {
             <img src={python} />
             <img src={reactjs} />
             <img src={unitybnw} />
+            <img
+              src="https://img.icons8.com/color/48/google-firebase-console.png"
+              alt="google-firebase-console"
+            />
           </Col>
         </Row>
         <hr className="hr hr-blurry mt-5" />{" "}
         {/* ------------------------------------------------------------------------------------------ */}
         <h1 className="d-flex justify-content-center align-items-center mb-5">
-          Projects
+          PROJECTS
         </h1>
         <Row>
           <Col>
@@ -145,17 +154,13 @@ function LandingPage() {
           </Col>
         </Row>
         {/* ------------------------------------------------------------------------------------------ */}
-        <hr className="hr hr-blurry mt-5" />{" "}
-        <h1 className="d-flex justify-content-center align-items-center">
-          Sample Models
-        </h1>
         <div className="d-flex justify-content-center align-items-center">
           {" "}
         </div>
         {/* ------------------------------------------------------------------------------------------ */}
         <hr className="hr hr-blurry mt-5" />{" "}
         <h1 className="d-flex justify-content-center align-items-center">
-          Contact
+          CONTACT
         </h1>
         <Row>
           <Col className="d-flex justify-content-center align-items-center">
@@ -199,35 +204,11 @@ function LandingPage() {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col className="d-flex justify-content-center align-items-center">
-            <div className="login-box">
-              <form>
-                <div className="user-box">
-                  <input type="text" name="" required="" />
-                  <label>Full Name</label>
-                </div>
-                <div className="user-box">
-                  <input type="email" name="" required="" />
-                  <label>Email</label>
-                </div>
-                <div className="user-box">
-                  <input type="email" name="" required="" />
-                  <label>Message</label>
-                </div>
-                <center>
-                  <a href="#">
-                    SEND
-                    <span></span>
-                  </a>
-                </center>
-              </form>
-            </div>
-          </Col>
         </Row>
       </Container>
-      <div className="mt-5">
-        <Header />
-      </div>
+      {/* <div>
+        <Footer />
+      </div> */}
     </div>
   );
 }
